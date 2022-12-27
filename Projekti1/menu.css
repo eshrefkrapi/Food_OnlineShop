@@ -1,0 +1,207 @@
+
+.main {
+    margin-top: 15px;
+}
+.food-photos {
+    width: 100%;
+    display: flex;
+    margin-top: 5em;
+    
+}
+
+.food-photos .ftype {
+    width: 13%;
+    height: 60px;
+    margin-left: 2.1em;
+   font-size: 24px;
+   font-weight: bolder;
+   color: rgb(87, 18, 18);
+   text-shadow: 4px 4px 3px rgb(176, 160, 160);
+   padding-top: 18px;
+   text-align: center;
+   box-sizing: border-box;
+   background-color: rgb(241, 178, 178);
+   border-radius: 50px;
+   margin-top: 20px;
+}
+
+.food-photos .ftype:hover {
+    margin-left: 77px;
+    
+}
+
+.food-photos .dish2 img {
+    width: 270px;
+    height: 125px;
+    margin-left: 2.1em;
+    border-radius: 40px;
+  
+}
+
+.food-photos .dish3 img {
+    width: 270px;
+    height: 125px;
+    margin-left: 2.4em;
+    border-radius: 40px;
+}
+
+.food-photos .dish4 img {
+    width: 270px;
+    height: 125px;
+    margin-left: 2.1em;
+    margin-right: 0.4em;
+    border-radius: 40px;
+}
+
+.our-work {
+    width: 100%;
+    display: flex;
+    color: rgb(58, 57, 57);
+    
+}
+
+.our-work .wwdo {
+    width: 13%;
+    height: 60px;
+    margin-left: 2.1em;
+    font-size: 24px;
+    font-weight: bolder;
+    color: rgb(87, 18, 18);
+    text-shadow: 4px 4px 3px rgb(176, 160, 160);
+    padding-top: 18px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(241, 178, 178);
+    border-radius: 50px;
+    margin-top: 45px;
+    
+}
+
+.our-work .wwdo:hover{
+    margin-left: 77px;
+}
+
+.our-work .wwdo2 {
+    width: 22.3%;
+    margin-left: 2.1em;
+    margin-top: 1.6em;
+    margin-top: 3px;
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+    padding-left: 7px;
+}
+
+.our-work .lorem {
+    width: 18%;
+    margin-left: 2.4em;
+    margin-top: 1.6em;
+    margin-top: 3px;
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+    padding-left: 7px;
+}
+
+.hr {
+    color: aqua;
+    background-color: aqua;
+    margin-top: 30px;
+}
+
+
+.pricebox {
+    box-sizing: border-box;
+    background-color:rgb(241, 203, 190);
+    padding: 5px;
+    cursor: pointer;
+}
+
+.pricebox:hover {
+    font-size: 23px;
+    cursor: pointer;
+    background-color: white;
+    color: blueviolet;
+}
+
+.cartbox {
+    box-sizing: border-box;
+    background-color:rgb(251, 94, 41);
+    color: rgb(255, 255, 255);
+    padding: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cartbox:hover{
+    font-size: 18px; 
+    color: rgb(0, 97, 6);
+    cursor: pointer;
+}
+
+.our-work .lorem2 {
+    width: 18%;
+    margin-left: 4.8em;
+    margin-top: 1.6em;
+    margin-top: 3px;
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+    padding-left: 8px;
+}
+
+#pasta {
+    margin-top: 30px;
+}
+
+#btt {
+    margin-top: 70px;
+    text-align: center;
+    margin-left: 21em;
+    font-size: 24px;
+    background-color: burlywood;
+    color: rgb(63, 60, 60);
+    font-weight: bolder;
+    cursor: pointer;
+    font-style: italic;
+    border:none;
+    padding: 6px;
+    border-radius: 8px;
+}
+
+#btt:hover{
+    color: black;
+    font-size: 26px;
+    margin-left: 19em;
+}
+
+.menunav  {
+    display: flex;
+    align-items: center;
+    margin-left: 15em;
+    margin-top: 5em;
+    cursor: pointer;
+}
+
+.menunav ul a {
+    text-decoration: none;
+    margin: 16px;
+    box-sizing: border-box;
+    background-color: rgb(127, 97, 60);
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+    font-size: 18px;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.menunav ul a:hover {
+    font-size: 21px;
+    background-color: cornflowerblue;
+    color:rgb(7, 255, 222);
+}
+
+@media (max-width: 700px) {
+  body{   
+    flex-direction: column;
+    width: 100%;
+  }
+}
